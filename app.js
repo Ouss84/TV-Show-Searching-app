@@ -1,5 +1,6 @@
 
 const form =document.querySelector ('#form');
+const container = document.querySelector('.container')
 
 form.addEventListener('submit', async function(e){
     e.preventDefault()
@@ -15,7 +16,7 @@ const fetchImage = (shows) => {
      if (show.show.image){
     const img = document.createElement('IMG');
     img.src = show.show.image.medium;
-    document.body.append(img);
+    container.append(img);
  }
 }
 }
