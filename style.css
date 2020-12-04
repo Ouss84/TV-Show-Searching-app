@@ -6,7 +6,12 @@ body {
   background: crimson;
 }
 form{
-    margin: 15px;
+    margin: 25px;
+
+}
+h1{
+    text-align: center;
+    
 }
 .container{
     display: flex;

@@ -1,0 +1,1 @@
+A searching application for TV Shows using tvmaze API endpoints.
